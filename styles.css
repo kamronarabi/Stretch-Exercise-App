@@ -6,8 +6,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #000000;
+    color: #c00fbd;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@ body {
 
 .container {
     text-align: center;
-    background-color: #fff;
+    background-color: #221e1e;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -45,7 +45,7 @@ input[type="text"] {
 
 button {
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #c00fbd;
     color: white;
     border: none;
     border-radius: 5px;
@@ -54,7 +54,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #a60da4;
 }
 
 .results-container {
@@ -63,9 +63,9 @@ button:hover {
 }
 
 .result-item {
-    background-color: #f9f9f9;
+    background-color: #221e1e;
     padding: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #a60da4;
     border-radius: 5px;
     margin-bottom: 10px;
 }
